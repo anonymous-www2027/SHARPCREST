@@ -1,0 +1,18 @@
+{
+  "dataset": "extended_wikipedia",
+  "method": "RAFT",
+  "scale": 200000,
+  "seed": 0,
+  "topm": 40,
+  "mmr_candidate_pool": 100,
+  "profile_reliability_k": 40,
+  "stp_state_weight": 0.5,
+  "stp_dispersion_weight": 0.25,
+  "stp_transition_weight": 0.25,
+  "cpu_threads": 4,
+  "retrieval_cpu_threads": 32,
+  "retrieval_batch_size": 1024,
+  "value_mmr_chunk_size": 8,
+  "hnsw_build_num_threads": -1,
+  "hnsw_search_num_threads": 32
+}

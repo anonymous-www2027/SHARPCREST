@@ -1,0 +1,1025 @@
+{
+  "dataset": "extended_wikipedia",
+  "L": 576,
+  "H": 7,
+  "split": {
+    "expected_length": 2557,
+    "train_end": 2262,
+    "valid_end": 2321,
+    "test_end": 2557,
+    "protocol": "Frozen representative 59-day validation / 236-day rolling test protocol"
+  },
+  "ordered_source_ids": [
+    46308,
+    39824,
+    92661,
+    88502,
+    83016,
+    112825,
+    34984,
+    42994,
+    58794,
+    49672,
+    143701,
+    33354,
+    143344,
+    35215,
+    90444,
+    14560,
+    110493,
+    62759,
+    88737,
+    52271,
+    134714,
+    17119,
+    49123,
+    126409,
+    95895,
+    16254,
+    133723,
+    142175,
+    45420,
+    51234,
+    44426,
+    62651,
+    99738,
+    104116,
+    27610,
+    7765,
+    8704,
+    11920,
+    107730,
+    123941,
+    40129,
+    97080,
+    31960,
+    57009,
+    75814,
+    104848,
+    105867,
+    116902,
+    86807,
+    26655,
+    104607,
+    25953,
+    59690,
+    61632,
+    79620,
+    89658,
+    67601,
+    88204,
+    35890,
+    16168,
+    63953,
+    112830,
+    134715,
+    42993,
+    143345,
+    110496,
+    46316,
+    95916,
+    133721,
+    83017,
+    33351,
+    58796,
+    49675,
+    90449,
+    62762,
+    34981,
+    39818,
+    92668,
+    52275,
+    49125,
+    45421,
+    17115,
+    126411,
+    88503,
+    88740,
+    142174,
+    16248,
+    14557,
+    143702,
+    51236,
+    44445,
+    62659,
+    99741,
+    104117,
+    27612,
+    7761,
+    8706,
+    11924,
+    107735,
+    123945,
+    40139,
+    97083,
+    31962,
+    57014,
+    75824,
+    79708,
+    105840,
+    104825,
+    104620,
+    67608,
+    35892,
+    116930,
+    61643,
+    59688,
+    88219,
+    89663,
+    26665,
+    25935,
+    63989
+  ],
+  "selected_identities": [
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      46308,
+      46308
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      39824,
+      39824
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      92661,
+      92661
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88502,
+      88502
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      83016,
+      83016
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      112825,
+      112825
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      34984,
+      34984
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      42994,
+      42994
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      58794,
+      58794
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      49672,
+      49672
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      143701,
+      143701
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      33354,
+      33354
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      143344,
+      143344
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      35215,
+      35215
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      90444,
+      90444
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      14560,
+      14560
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      110493,
+      110493
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      62759,
+      62759
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88737,
+      88737
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      52271,
+      52271
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      134714,
+      134714
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      17119,
+      17119
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      49123,
+      49123
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      126409,
+      126409
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      95895,
+      95895
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      16254,
+      16254
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      133723,
+      133723
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      142175,
+      142175
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      45420,
+      45420
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      51234,
+      51234
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      44426,
+      44426
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      62651,
+      62651
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      99738,
+      99738
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104116,
+      104116
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      27610,
+      27610
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      7765,
+      7765
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      8704,
+      8704
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      11920,
+      11920
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      107730,
+      107730
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      123941,
+      123941
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      40129,
+      40129
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      97080,
+      97080
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      31960,
+      31960
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      57009,
+      57009
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      75814,
+      75814
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104848,
+      104848
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      105867,
+      105867
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      116902,
+      116902
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      86807,
+      86807
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      26655,
+      26655
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104607,
+      104607
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      25953,
+      25953
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      59690,
+      59690
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      61632,
+      61632
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      79620,
+      79620
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      89658,
+      89658
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      67601,
+      67601
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88204,
+      88204
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      35890,
+      35890
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      16168,
+      16168
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      63953,
+      63953
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      112830,
+      112830
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      134715,
+      134715
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      42993,
+      42993
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      143345,
+      143345
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      110496,
+      110496
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      46316,
+      46316
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      95916,
+      95916
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      133721,
+      133721
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      83017,
+      83017
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      33351,
+      33351
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      58796,
+      58796
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      49675,
+      49675
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      90449,
+      90449
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      62762,
+      62762
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      34981,
+      34981
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      39818,
+      39818
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      92668,
+      92668
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      52275,
+      52275
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      49125,
+      49125
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      45421,
+      45421
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      17115,
+      17115
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      126411,
+      126411
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88503,
+      88503
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88740,
+      88740
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      142174,
+      142174
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      16248,
+      16248
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      14557,
+      14557
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      143702,
+      143702
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      51236,
+      51236
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      44445,
+      44445
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      62659,
+      62659
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      99741,
+      99741
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104117,
+      104117
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      27612,
+      27612
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      7761,
+      7761
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      8706,
+      8706
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      11924,
+      11924
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      107735,
+      107735
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      123945,
+      123945
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      40139,
+      40139
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      97083,
+      97083
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      31962,
+      31962
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      57014,
+      57014
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      75824,
+      75824
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      79708,
+      79708
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      105840,
+      105840
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104825,
+      104825
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      104620,
+      104620
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      67608,
+      67608
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      35892,
+      35892
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      116930,
+      116930
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      61643,
+      61643
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      59688,
+      59688
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      88219,
+      88219
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      89663,
+      89663
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      26665,
+      26665
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      25935,
+      25935
+    ],
+    [
+      "extended_wikipedia",
+      "extended_wikipedia",
+      63989,
+      63989
+    ]
+  ],
+  "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+  "selected_series_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+  "selected_raw_bank_hash": "35f051e397eaee86f3013457ef5bd56a3591021c2969b52433337463ad8b1286",
+  "schema_version": 1,
+  "population_mode": "nested_whole_series",
+  "nominal_scale": 200000,
+  "anchor_scale": 100000,
+  "anchor_source_ids": [
+    46308,
+    39824,
+    92661,
+    88502,
+    83016,
+    112825,
+    34984,
+    42994,
+    58794,
+    49672,
+    143701,
+    33354,
+    143344,
+    35215,
+    90444,
+    14560,
+    110493,
+    62759,
+    88737,
+    52271,
+    134714,
+    17119,
+    49123,
+    126409,
+    95895,
+    16254,
+    133723,
+    142175,
+    45420,
+    51234,
+    44426,
+    62651,
+    99738,
+    104116,
+    27610,
+    7765,
+    8704,
+    11920,
+    107730,
+    123941,
+    40129,
+    97080,
+    31960,
+    57009,
+    75814,
+    104848,
+    105867,
+    116902,
+    86807,
+    26655,
+    104607,
+    25953,
+    59690,
+    61632,
+    79620,
+    89658,
+    67601,
+    88204,
+    35890,
+    16168,
+    63953
+  ],
+  "selected_series_count": 119,
+  "selection_seed": 0,
+  "selection_reference_length": 576,
+  "selection_reference_horizon": 7,
+  "expected": {
+    "7": {
+      "dataset_identities": {
+        "train": {
+          "count": 199920,
+          "query_identity_hash": "ac905cfd3eff9540ca0fdbce5779508d6fa25afb2f51c79249ee95ad0a5c005f",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "valid": {
+          "count": 6307,
+          "query_identity_hash": "d7b1eb7de36ca832b8c0d798705f4c7650581d1d22cfb90936efc78cdd410624",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "test": {
+          "count": 27370,
+          "query_identity_hash": "20bd368c7bdedd8e123c5e699e6b550de54e1f90f09ac9af0e9140f5f4e930e2",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        }
+      },
+      "actual_candidate_count": 199920,
+      "fixed_hashes": {
+        "query_id": "588a64319c096029640921948053d06633836317a053db9a03bdcd831e4ce66b",
+        "source_id": "ce67b97f369424afff85c07bc3b06851df688580f2d98a66b124d30c6a9fff7a",
+        "query_origin": "e84f74ad5962b26978256eee9e06dbddc49601302cb4ce407b2cb972f659b328",
+        "raw_target": "002ffbabcf1875ce3eef2f182cff15bcc52cf70f5cb28d064638cfbb51eaff5b",
+        "normalized_target": "0cfbd444570a84eb0e1ef75227328bcb3b54b72e98f0162502f8445c927a1dfb",
+        "target_mask": "9fe6f82a35cb552477adf4ee1c60a61b9858fa8b66bf4afc187fd29f858e24e3"
+      },
+      "fixed_test_queries": 14030
+    },
+    "28": {
+      "dataset_identities": {
+        "train": {
+          "count": 197421,
+          "query_identity_hash": "f16e8cee096a9512f4345d71d69f0fe04a1c7904df5b6c47d27d9a14847978a9",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "valid": {
+          "count": 3808,
+          "query_identity_hash": "6c3eaf800077369370d5f54489d6b88621de3f9347d8198bafb14e0972bdeccd",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "test": {
+          "count": 24871,
+          "query_identity_hash": "154a3a9043a2ad5e953d1b837fe76d5baa8a8af7e75d8d4f5a52d29cc2c969be",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        }
+      },
+      "actual_candidate_count": 197421,
+      "fixed_hashes": {
+        "query_id": "cc0cf9637a9976a0a2422b3e80f6411dc072a94b4cd277db5d5460b5462174f2",
+        "source_id": "7d7161e77ca9edf01fbcd11f89bc5236cd26ec3b26a952da974af29a78b846f4",
+        "query_origin": "202e8043587b106a625b6b409bf339bdad6fd576dd45f5340fde49af7701fc4a",
+        "raw_target": "1c0ef41a2417a9ddbfd6119d2145a6d60da2a78248c6d0d9197c8374095ca819",
+        "normalized_target": "830dabf326e350799861b90653d005ad8fa651c9de45bc9de536fd5a229c2d2f",
+        "target_mask": "46c93cb1645152a20b9d735cec12e8c90e731625525c3c812cffb21bdd56d8ca"
+      },
+      "fixed_test_queries": 12749
+    },
+    "59": {
+      "dataset_identities": {
+        "train": {
+          "count": 193732,
+          "query_identity_hash": "b7d3079cc7269984af050d0b492592814cfc7f9db2c675df2e1b6fb846849f2a",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "valid": {
+          "count": 119,
+          "query_identity_hash": "de28f775d42bdbe432664ea0e76f12043eb6cfbff6daee66f577ef932e5afd21",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        },
+        "test": {
+          "count": 21182,
+          "query_identity_hash": "170e603cc08671d3b5d353448c1ae5a91165d96b93371cc94dc34efa733beba3",
+          "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+          "normalization_hash": "fb82116b1b2308373db4ad84df9170cda0338e4352a840f337a991619160aefb"
+        }
+      },
+      "actual_candidate_count": 193732,
+      "fixed_hashes": {
+        "query_id": "f7fd656aed6af324d7f9942540db0a95f79f31b245704b49e00a216c261eb27f",
+        "source_id": "972cd9758b39823fa9a64b87a0894b6c66344e12c77bd0f368c83b68b964e1df",
+        "query_origin": "cc59b1c3ade0c43b57a9e99c20cd8dc45e584e96229460840d4c22a233c987e2",
+        "raw_target": "a8d490dec58e7ed3523b850a333743716dab5b089c5ed15eafd71aa84c733e31",
+        "normalized_target": "075584511f7fa39395ed406399cad2ef5413d47fa057fe6ac599af7ba4c2727e",
+        "target_mask": "7c514631cd44811b5339bba4da1462625821a8a10dc56cd051d5cf0836c6eb1a"
+      },
+      "fixed_test_queries": 10858
+    }
+  },
+  "provenance": {
+    "manifest": "results/rq2-nested-reliability-800k-v1/manifests/extended_wikipedia/200000/manifest.json",
+    "sha256": "a5e5d46306acca57e708ac04cf29b29f44bd1c9732d0401c47234b29c8689487"
+  }
+}

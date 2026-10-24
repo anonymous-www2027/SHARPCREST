@@ -1,0 +1,12 @@
+{
+  "cohorts/extended_wikipedia/400000.json": "a437cc86475d3553bceee3a55129bc7b2023707f41232971c0f1c236934e7602",
+  "cohorts/extended_wikipedia/100000.json": "6bc58dcf8af158be52fb9b6ec7533bc547bf72f0c5a4ef57a1e16f022982d9db",
+  "cohorts/extended_wikipedia/800000.json": "e3b8db3f8fab3f3fa284e8a73fc9b690cf79d649b777a2097bb6652d720efa23",
+  "cohorts/extended_wikipedia/200000.json": "d1f34a744e7128752cde4b4b1dbd1a917a2f0c8701132c0d77d08355072e6016",
+  "cohorts/tailedts_202401/100000.json": "0e0aa08b98b020e101b1731958d0755d342fecb26a3fa07a0294377b7023d9aa",
+  "cohorts/tailedts_202401/200000.json": "3adbf5c9acffd478d72cb554b3868874c24110dd662c81e1d8be74dcd9d8d9a9",
+  "cohorts/quito_hour/400000.json": "e93d29ffedfefdaa48db6a814e229a6c3067ab3e9fbe4878bdff79bf5a0cfba7",
+  "cohorts/quito_hour/100000.json": "68eae3d64625199bc4485b764adb38e92b241f3cbdffda73c8be42889fdccd10",
+  "cohorts/quito_hour/800000.json": "46bd2279fb4d455b1b31262a174af7d2d51d51781f49facff468a63c65f8a1dc",
+  "cohorts/quito_hour/200000.json": "c222f0e768b99fd661a0e001b60f7b4c8da8968b96c30bda6f3cee4fb9d052d0"
+}

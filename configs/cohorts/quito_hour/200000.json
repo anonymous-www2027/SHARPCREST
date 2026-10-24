@@ -1,0 +1,267 @@
+{
+  "dataset": "quito_hour",
+  "L": 576,
+  "H": 288,
+  "split": {
+    "expected_length": 15356,
+    "train_end": 11844,
+    "valid_end": 14804,
+    "test_end": 15356,
+    "protocol": "Quito global cutoff + pre-test 80/20"
+  },
+  "ordered_source_ids": [
+    109967,
+    104542,
+    102886,
+    102452,
+    110751,
+    108286,
+    104918,
+    104437,
+    101961,
+    100332,
+    109964,
+    104504,
+    102889,
+    102453,
+    110753,
+    104919,
+    104433,
+    100333
+  ],
+  "selected_identities": [
+    [
+      "hour",
+      "quitobench_hour",
+      109967,
+      382
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104542,
+      4374
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102886,
+      2782
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102452,
+      2367
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110751,
+      10343
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      108286,
+      8003
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104918,
+      4740
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104437,
+      4273
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      101961,
+      1894
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      100332,
+      318
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      109964,
+      9582
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104504,
+      4340
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102889,
+      2785
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102453,
+      2368
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110753,
+      10345
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104919,
+      4741
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104433,
+      4269
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      100333,
+      319
+    ]
+  ],
+  "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+  "selected_series_hash": "e585ecc302e3b818a3648c0492e24bb4e036ad6cce42ecd3e6fbbd3fe8ade226",
+  "selected_raw_bank_hash": "b75228eec29b473f8587a73cedfb93b7029de5b8e84344bab336c6e251ffb951",
+  "schema_version": 1,
+  "population_mode": "nested_whole_series",
+  "nominal_scale": 200000,
+  "anchor_scale": 100000,
+  "anchor_source_ids": [
+    109967,
+    104542,
+    102886,
+    102452,
+    110751,
+    108286,
+    104918,
+    104437,
+    101961,
+    100332
+  ],
+  "selected_series_count": 18,
+  "selection_seed": 0,
+  "selection_reference_length": 576,
+  "selection_reference_horizon": 288,
+  "expected": {
+    "288": {
+      "dataset_identities": {
+        "train": {
+          "count": 197658,
+          "query_identity_hash": "55a1a3e1de231aed2c7124fe937ec116c7c7866f24f64d8c58bb6198a8a5917d",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "valid": {
+          "count": 48114,
+          "query_identity_hash": "5ad2f802e59406484111e7d56364264cb69a12af16e5c78f77b395c867cdad47",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "test": {
+          "count": 4770,
+          "query_identity_hash": "e23d01ebbb43d38f398b37c83d3000a8d25342ab8b0b4e94d79e1eef09c9e3e2",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        }
+      },
+      "actual_candidate_count": 197658,
+      "fixed_hashes": {
+        "query_id": "a7d2d2afc0d5cd559c1deca2657ca70d59b1223c36c2ae0828a68abb8f1945e4",
+        "source_id": "12bbd62e559e6dbd5e448eb6590abf98bcc1761df86257f91d3f795ec44eda7b",
+        "query_origin": "7bdd06d759cd02ae4079029ce196893e63bd99a770bbd37b99ed0078e00180c3",
+        "raw_target": "ec7d0f99fa841a41acb6d4aae5e049d26bc0abe0c646c1869e8a75fdaccfe42c",
+        "normalized_target": "f05ebe84ae3982dab06f7910ab8fde5cb266235c5a286a70eea7ddb31f624e32",
+        "target_mask": "1156be638188d5001d1cf5297b80c5fe021a719254882635af0efff89d2c3c76"
+      },
+      "fixed_test_queries": 2650
+    },
+    "48": {
+      "dataset_identities": {
+        "train": {
+          "count": 201978,
+          "query_identity_hash": "16596a809b5a93a85fce4e310085d7e1cbdfe8284b353078352d123629befb14",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "valid": {
+          "count": 52434,
+          "query_identity_hash": "e0fd16323006c4d41d9a2e1d9d05d1b156218e9ed49b8b7872028d61058267c7",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "test": {
+          "count": 9090,
+          "query_identity_hash": "d75cfc8d322c14aae7e56aa8996de39e7f2bdcb84f1b9fa1989ad0e651e1358c",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        }
+      },
+      "actual_candidate_count": 201978,
+      "fixed_hashes": {
+        "query_id": "d00f154f4c8928dfef899880ca4ae4157c20b2f88c6352921a1a89d63bfe3f90",
+        "source_id": "e37f72f944aa7c439732e18405110ef39a0a776e0a0b0b31a25bb76c9eba9a08",
+        "query_origin": "821ee101d5c494fa6313440945ec1ead201e7ec6c801a2ab8c4dff645781f790",
+        "raw_target": "ef72c1cab0e9f2fb5f27a239c73749fb688cd4bede489a9c94588221a77e5743",
+        "normalized_target": "ab024d44cc42fe3427fc2e30cd769894d0dec4ec5ceddb636f00e1a4feb46793",
+        "target_mask": "8621507cf4394713ab7165d636792d215ffc7a3bd7d8d7a44f683f964d07e4ad"
+      },
+      "fixed_test_queries": 5050
+    },
+    "512": {
+      "dataset_identities": {
+        "train": {
+          "count": 193626,
+          "query_identity_hash": "84cbe22ea2124db321943702e751b1f883aec675cd551b1ce5ce1794e5815dfc",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "valid": {
+          "count": 44082,
+          "query_identity_hash": "84743b59154127c2fdf660772dcc6c21576bddbc19dab61d51be8040aeb38251",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        },
+        "test": {
+          "count": 738,
+          "query_identity_hash": "96623916290fe5ce43f63fd603ef6929ad3b9e27e141a37252afef52d4673405",
+          "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+          "normalization_hash": "0b760c557350cf022f445407a8b17ff64ad41c3877f8a7c3da2573b519eb9b2a"
+        }
+      },
+      "actual_candidate_count": 193626,
+      "fixed_hashes": {
+        "query_id": "e39062a907d25cc17d5bfbde16fd126399ebbeff1cf2fa76dbd02b319bfc8841",
+        "source_id": "629571efd8bef283e198a723c5ee46ccd64b4cfef99ad058ff226260f3395b6e",
+        "query_origin": "3a80151ec2370f4e5e59657fd0c97f06b6509e9b7acd0063a25f384069817009",
+        "raw_target": "f89040c465853fac8ad35de49f1c4d2635ae3902361fdc74f965cc1d6aee8ace",
+        "normalized_target": "f3cb494eeee4f08dde36a35a61b1459e4d920a7e52d5388f68e026f3b29f9cae",
+        "target_mask": "103b19b10eb249cb0fe0643f251b92f868ef46453fe428e1607bf83b0df1b3db"
+      },
+      "fixed_test_queries": 410
+    }
+  },
+  "provenance": {
+    "manifest": "results/rq2-nested-reliability-800k-v1/manifests/quito_hour/200000/manifest.json",
+    "sha256": "a6dab7bc09921fe62701cc98b17b7e80a8c7eda09e5fd4e1783380cd6a3aa2d8"
+  }
+}

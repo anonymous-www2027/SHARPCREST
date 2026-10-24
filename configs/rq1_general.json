@@ -1,0 +1,9 @@
+{
+  "dataset": "ETTh1",
+  "method": "RAFT",
+  "seed": 0,
+  "train_epochs": 10,
+  "patience": 0,
+  "cpu_threads": 4,
+  "retrieval_cpu_threads": 32
+}

@@ -1,0 +1,320 @@
+{
+  "dataset": "quito_hour",
+  "L": 576,
+  "H": 288,
+  "split": {
+    "expected_length": 15356,
+    "train_end": 11844,
+    "valid_end": 14804,
+    "test_end": 15356,
+    "protocol": "Quito global cutoff + pre-test 80/20"
+  },
+  "ordered_source_ids": [
+    109967,
+    104542,
+    102886,
+    102452,
+    110751,
+    108286,
+    104918,
+    104437,
+    101961,
+    100332,
+    109964,
+    104504,
+    102889,
+    102453,
+    110753,
+    104919,
+    104433,
+    100333,
+    108301,
+    104499,
+    109956,
+    103599,
+    102890,
+    102811,
+    107964,
+    110197,
+    110739,
+    102451,
+    106040,
+    108287,
+    104920,
+    104894,
+    104427,
+    101964,
+    104768,
+    100337
+  ],
+  "selected_identities": [
+    [
+      "hour",
+      "quitobench_hour",
+      109967,
+      382
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104542,
+      4374
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102886,
+      2782
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102452,
+      2367
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110751,
+      10343
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      108286,
+      8003
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104918,
+      4740
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104437,
+      4273
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      101961,
+      1894
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      100332,
+      318
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      109964,
+      9582
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104504,
+      4340
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102889,
+      2785
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102453,
+      2368
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110753,
+      10345
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104919,
+      4741
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104433,
+      4269
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      100333,
+      319
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      108301,
+      8014
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104499,
+      4335
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      109956,
+      9576
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      103599,
+      3468
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102890,
+      2786
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102811,
+      2708
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      107964,
+      7697
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110197,
+      9801
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      110739,
+      10332
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      102451,
+      2366
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      106040,
+      5824
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      108287,
+      8004
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104920,
+      4742
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104894,
+      4717
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104427,
+      4263
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      101964,
+      1897
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      104768,
+      4594
+    ],
+    [
+      "hour",
+      "quito_corpus_hour",
+      100337,
+      323
+    ]
+  ],
+  "cohort_hash": "06d1b32d67ec1b640820e61b273c82da7e629817b7b17169a17448200c5af53c",
+  "selected_series_hash": "ef26993ccfff32f8c4e6b01d73cdaea6bbb555c76d7cc94a7d5d1c04b429a6f8",
+  "selected_raw_bank_hash": "3d3ae1700726a2c332eab14febc44f1499c411bb2836278b23cffbabe3b2143b",
+  "schema_version": 1,
+  "population_mode": "nested_whole_series",
+  "nominal_scale": 400000,
+  "anchor_scale": 100000,
+  "anchor_source_ids": [
+    109967,
+    104542,
+    102886,
+    102452,
+    110751,
+    108286,
+    104918,
+    104437,
+    101961,
+    100332
+  ],
+  "selected_series_count": 36,
+  "selection_seed": 0,
+  "selection_reference_length": 576,
+  "selection_reference_horizon": 288,
+  "expected": {
+    "288": {
+      "dataset_identities": {
+        "train": {
+          "count": 395316,
+          "query_identity_hash": "ea00868efff1cb6e24fbc30332cf1529fe409b3d155b72213d232386fd0606c9",
+          "cohort_hash": "06d1b32d67ec1b640820e61b273c82da7e629817b7b17169a17448200c5af53c",
+          "normalization_hash": "7d6a6d5a0a577b41a206b622446797245bca1d5e528b77e10987879eb457d6c1"
+        },
+        "valid": {
+          "count": 96228,
+          "query_identity_hash": "e825b7f2abd3c4e0a6014550faa62ab8cc47483cd4689c3721f5c06db70d9b6d",
+          "cohort_hash": "06d1b32d67ec1b640820e61b273c82da7e629817b7b17169a17448200c5af53c",
+          "normalization_hash": "7d6a6d5a0a577b41a206b622446797245bca1d5e528b77e10987879eb457d6c1"
+        },
+        "test": {
+          "count": 9540,
+          "query_identity_hash": "c73ac29d9540726e96b48773b4c864d87ef315acf1e7a6f3b39eae8dcd22440a",
+          "cohort_hash": "06d1b32d67ec1b640820e61b273c82da7e629817b7b17169a17448200c5af53c",
+          "normalization_hash": "7d6a6d5a0a577b41a206b622446797245bca1d5e528b77e10987879eb457d6c1"
+        }
+      },
+      "actual_candidate_count": 395316
+    }
+  },
+  "provenance": {
+    "manifest": "results/rq2-nested-reliability-800k-v1/manifests/quito_hour/400000/manifest.json",
+    "sha256": "e6e1e03351899935cdff782253c0afc9666c518a5784032e461e99460db96f2d"
+  }
+}
