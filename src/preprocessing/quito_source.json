@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/alipay/quito",
+  "commit": "262e7428db6ec186ba712ab5a4973501946d26ae",
+  "file": "quito/utils/dataset_quality.py",
+  "source_sha256": "5e49599a9a861c66f14728d840753a10b5872a5a3e8c403454049fd7e0601c7c",
+  "functions": [
+    "SeriesQuality",
+    "_to_1d_numpy",
+    "coefficient_of_variation",
+    "effective_length",
+    "evaluate_series",
+    "fill_missing",
+    "forecastability_welch",
+    "missing_ratio",
+    "spectral_entropy_welch",
+    "stl_decomposition_strengths"
+  ],
+  "modifications": "TSF-only extraction; shortened docstrings; private evaluator; optional diagnostics disabled by wrapper"
+}

@@ -1,0 +1,7 @@
+# Use a separate Python >=3.10 preprocessing environment for the pinned TSF stack.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.1
+statsmodels==0.14.4
+pyarrow>=19.0.1
+threadpoolctl
