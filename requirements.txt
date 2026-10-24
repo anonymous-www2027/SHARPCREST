@@ -1,0 +1,8 @@
+torch
+numpy
+pandas
+scikit-learn
+tqdm
+hnswlib==0.9.0
+pyarrow
+threadpoolctl

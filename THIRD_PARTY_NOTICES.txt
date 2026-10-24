@@ -1,0 +1,22 @@
+PIR / PatchTST
+Source: https://github.com/ustc-time-series/PIR
+The selected forecasting models, layers and utilities retain the THUML MIT
+notice in src/pir/LICENSE. Local changes add SHARP/CREST retrieval, portable
+cohort loading, experiment recording and shared pretraining with RNG restore.
+
+DLinear
+Source: https://github.com/cure-lab/LTSF-Linear/blob/main/models/DLinear.py
+Copyright 2022 DLinear Authors. Apache License 2.0 is included in
+src/knn_mts/LICENSE.dlinear. Constructor and forward signatures were adapted
+for the RQ1 interface; decomposition and linear computations are preserved.
+
+kNN-MTS reference
+Reference: https://github.com/hlhang9527/KNN-MTS
+src/knn_mts implements the studied DLinear + raw-window Pearson retrieval
+variant, not the upstream HSTEncoder embedding implementation. No unlicensed
+upstream KNN-MTS framework files are bundled; DLinear is sourced from its
+separately licensed official repository above.
+
+The root MIT license applies to this project's original integration code.
+Third-party license notices remain applicable to the corresponding files.
+Dataset attribution is listed separately in data/web/ATTRIBUTION.txt.
