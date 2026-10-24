@@ -1,0 +1,64 @@
+{
+  "format": "sharp-paper-series-v2",
+  "dataset": "quito_hour",
+  "series_length": 15356,
+  "channel": "ind_1",
+  "split": {
+    "expected_length": 15356,
+    "train_end": 11844,
+    "valid_end": 14804,
+    "test_end": 15356,
+    "protocol": "Quito global cutoff + pre-test 80/20"
+  },
+  "scales": [
+    100000,
+    200000,
+    400000,
+    800000
+  ],
+  "includes": "Full train, validation and test series; no windows expanded",
+  "transformations": "Existing canonical float32 values; Wiki zero-fill; Quito channel ind_1 projection",
+  "parquet_bytes": 7286884,
+  "scale_packages": {
+    "100000": {
+      "file": "100000.parquet",
+      "series_count": 10,
+      "raw_bytes": 614240,
+      "parquet_bytes": 620089,
+      "parquet_sha256": "590f21c18247fc755119fd1b4d62bb4d561d7f759bc8d6b9278a1c5084f24374",
+      "cohort_hash": "f8d563d0d6d7924384456a465ad1b37039fe9d88135547be2426eef0bea9a6a9",
+      "selected_raw_bank_hash": "9b8ec59ee579b3aae2025f6a6b753850fede771b3fb685f855b264fb28a02c52",
+      "manifest_sha256": "68eae3d64625199bc4485b764adb38e92b241f3cbdffda73c8be42889fdccd10"
+    },
+    "200000": {
+      "file": "200000.parquet",
+      "series_count": 18,
+      "raw_bytes": 1105632,
+      "parquet_bytes": 968882,
+      "parquet_sha256": "524413eddbc01f444283c0b2a55a225b944046131a542b397c81255692f99cac",
+      "cohort_hash": "401a5a4346c07ebe60b9296086ff07814a3f6f2065e1d4ebb8ff414bf195980a",
+      "selected_raw_bank_hash": "b75228eec29b473f8587a73cedfb93b7029de5b8e84344bab336c6e251ffb951",
+      "manifest_sha256": "c222f0e768b99fd661a0e001b60f7b4c8da8968b96c30bda6f3cee4fb9d052d0"
+    },
+    "400000": {
+      "file": "400000.parquet",
+      "series_count": 36,
+      "raw_bytes": 2211264,
+      "parquet_bytes": 1950617,
+      "parquet_sha256": "df1301e2c9d3621a56e76393a3b5f0b83c02456b2d503a4b78978d662bb16037",
+      "cohort_hash": "06d1b32d67ec1b640820e61b273c82da7e629817b7b17169a17448200c5af53c",
+      "selected_raw_bank_hash": "3d3ae1700726a2c332eab14febc44f1499c411bb2836278b23cffbabe3b2143b",
+      "manifest_sha256": "e93d29ffedfefdaa48db6a814e229a6c3067ab3e9fbe4878bdff79bf5a0cfba7"
+    },
+    "800000": {
+      "file": "800000.parquet",
+      "series_count": 73,
+      "raw_bytes": 4483952,
+      "parquet_bytes": 3747296,
+      "parquet_sha256": "4a608833edf0d2052edce219c10ca80c0d1d391a2a192a20f6c14103f0a46b8c",
+      "cohort_hash": "d7999ae2127473b5de07af5fb8a8e2610c5c133a823e455ceca8ac5c32e1a3cb",
+      "selected_raw_bank_hash": "1dd96a87514a0fad707fbb3098dcc384d5550765ab2a7af183e49ce13f7860e7",
+      "manifest_sha256": "46bd2279fb4d455b1b31262a174af7d2d51d51781f49facff468a63c65f8a1dc"
+    }
+  }
+}

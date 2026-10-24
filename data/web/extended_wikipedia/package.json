@@ -1,0 +1,64 @@
+{
+  "format": "sharp-paper-series-v2",
+  "dataset": "extended_wikipedia",
+  "series_length": 2557,
+  "channel": "page_views",
+  "split": {
+    "expected_length": 2557,
+    "train_end": 2262,
+    "valid_end": 2321,
+    "test_end": 2557,
+    "protocol": "Frozen representative 59-day validation / 236-day rolling test protocol"
+  },
+  "scales": [
+    100000,
+    200000,
+    400000,
+    800000
+  ],
+  "includes": "Full train, validation and test series; no windows expanded",
+  "transformations": "Existing canonical float32 values; Wiki zero-fill; Quito channel ind_1 projection",
+  "parquet_bytes": 3629197,
+  "scale_packages": {
+    "100000": {
+      "file": "100000.parquet",
+      "series_count": 61,
+      "raw_bytes": 623908,
+      "parquet_bytes": 255066,
+      "parquet_sha256": "ad75055177a54ee398bbd806db5f2338554d0708f6126c6dc3e8cd834ca8c345",
+      "cohort_hash": "481ce76593df73ecaf052213a40256f30ec33ce41b2c36f671dd3307ebd23332",
+      "selected_raw_bank_hash": "8e527d1262a5d0164493cfbeddb0a838a41364125d2edc24fbce401f1a757805",
+      "manifest_sha256": "6bc58dcf8af158be52fb9b6ec7533bc547bf72f0c5a4ef57a1e16f022982d9db"
+    },
+    "200000": {
+      "file": "200000.parquet",
+      "series_count": 119,
+      "raw_bytes": 1217132,
+      "parquet_bytes": 480415,
+      "parquet_sha256": "e7282315d32dad31e201939fdff34f56a58e8c0d33dbfcb700b84d931dda31bb",
+      "cohort_hash": "90a468360a1d2e2f2570242c41c096b681f4bd0eb1f4ad84fed8747d2186f966",
+      "selected_raw_bank_hash": "35f051e397eaee86f3013457ef5bd56a3591021c2969b52433337463ad8b1286",
+      "manifest_sha256": "d1f34a744e7128752cde4b4b1dbd1a917a2f0c8701132c0d77d08355072e6016"
+    },
+    "400000": {
+      "file": "400000.parquet",
+      "series_count": 238,
+      "raw_bytes": 2434264,
+      "parquet_bytes": 952165,
+      "parquet_sha256": "e4ea8c06f65d7f3c7ee8fea7dce9d19a0f6f73b500eed4149dc671f75f6b1c6f",
+      "cohort_hash": "471ee7c9f299bc9e8c4b2e6e6311cce79452cde3ae2734e5343fc5bb8ab84f36",
+      "selected_raw_bank_hash": "8b9e7042cf9e60bd276a2c93a94f4a802d4cd6e0d04c4fe68b8b362b124efc25",
+      "manifest_sha256": "a437cc86475d3553bceee3a55129bc7b2023707f41232971c0f1c236934e7602"
+    },
+    "800000": {
+      "file": "800000.parquet",
+      "series_count": 476,
+      "raw_bytes": 4868528,
+      "parquet_bytes": 1941551,
+      "parquet_sha256": "2d6062707e0469e0294148a9a279da53ad6b0f79bac61a82473349d6b0385bf6",
+      "cohort_hash": "8cb00d00cde79118ec2ea0f1e5f9c3f8bdbd37d514d888bf02b65453860086cf",
+      "selected_raw_bank_hash": "31be096bd9e9e2c257635fb624786e9836956ef76571f4ce236f7adfd203b203",
+      "manifest_sha256": "e3b8db3f8fab3f3fa284e8a73fc9b690cf79d649b777a2097bb6652d720efa23"
+    }
+  }
+}

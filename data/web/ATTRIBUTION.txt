@@ -1,0 +1,37 @@
+Packaged paper data
+==================
+
+Each dataset has separate 100000.parquet, 200000.parquet, 400000.parquet and
+800000.parquet files. Each file contains exactly the ordered series specified
+by that scale's manifest in configs/cohorts. Shared series are intentionally
+duplicated across scales. Full train, validation and test ranges are retained.
+These are forecasting subsets, not the full populations needed to recompute
+population-level TSF proportions.
+
+Extended Wikipedia
+Source: web_traffic_extended_dataset_with_missing_values.tsf,
+2015-07-01 through 2022-06-30, 145,063-series source population.
+Attribution: Wikimedia Analytics Team (2022), Wikistats: pageview complete dumps.
+https://dumps.wikimedia.org/other/pageview_complete
+The original dataset header declares CC BY-SA 3.0 and GFDL:
+https://creativecommons.org/licenses/by-sa/3.0/
+https://www.gnu.org/licenses/fdl-1.3.html
+Changes: selected 61/119/238/476 series at 100K/200K/400K/800K;
+original canonical float32 representation;
+missing observations previously filled with zero; compact Parquet packaging.
+The Wikipedia data retain the upstream data licenses, separately from code.
+
+Quito-Hour
+Attribution: Siqiao Xue et al. (2026), QuitoBench: A High-Quality Open Time
+Series Forecasting Benchmark. https://arxiv.org/abs/2603.26017
+Sources (release v20260315):
+https://huggingface.co/datasets/hq-bench/quitobench
+https://huggingface.co/datasets/hq-bench/quito-corpus
+License: CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
+Changes: selected 10/18/36/73 series at 100K/200K/400K/800K from the research
+population; retain ind_1 only;
+original canonical float32 representation; compact Parquet packaging.
+The Quito data retain CC BY 4.0, separately from code.
+
+Each dataset's package.json records file checksums, source identities through
+the Parquet identity column, split boundaries and the matching cohort hashes.
